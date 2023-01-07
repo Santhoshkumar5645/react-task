@@ -1,0 +1,124 @@
+table {
+  width: 100%;
+}
+form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+tr {
+  padding: 10px;
+  margin: 12px;
+}
+.data {
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px 5px #e3e3e3;
+  display: flex;
+  margin-top: 30px;
+  padding: 20px 0px;
+  font-size: 0.8rem;
+  color: #0b9cb3;
+  font-weight: bold;
+}
+p {
+  background-color: #ecf5fa;
+  margin: 10px;
+  text-align: center;
+}
+
+.file {
+  display: flex;
+  text-decoration: underline;
+}
+
+.file_icon {
+  padding: 10px;
+}
+
+.tags {
+  text-decoration: none;
+}
+
+
+
+.date {
+  text-align: center;
+  padding-top: 12px;
+}
+
+.edit {
+  width: fit-content;
+}
+
+.edit_text {
+  color: white;
+  background-color: #076c74;
+  border: none;
+  padding: 20px 60px 40px 10px;
+  padding-right: 30px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+}
+th {
+  background-color: #37afa6;
+  padding: 10px;
+  width: 100vw;
+}
+
+td {
+  padding: 15px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .data {
+    width: 100vw;
+  }
+
+  table {
+    width: 100vw;
+  }
+  .edit_text {
+    font-size: 10px;
+    padding: 20px 10px 30px 10px;
+  }
+
+  .date {
+    padding-right: 60px;
+    font-size: 0.6rem;
+  }
+  .tag {
+    font-size: 0.6rem;
+  }
+  .tags {
+    padding-right: 30px;
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 650) {
+  date {
+    padding-right: 40px;
+    font-size: 0.5rem;
+  }
+
+  tag {
+    font-size: 0.3rem;
+  }
+  .file {
+    margin: none;
+  }
+  .file_icon {
+    font-size: 0.625em;
+  }
+  .tags {
+    padding-right: 60px;
+    font-size: 0.4rem;
+  }
+  .para {
+    font-size: 0.5rem;
+  }
+}
