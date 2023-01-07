@@ -75,7 +75,11 @@ const App = () => {
             </div>
           </div>
         </div>
-        <button onClick={buttonClick} className="btn btn-dark" type="submit">
+        <button onClick={buttonClick} style={{width: "300px",
+                                              position:"relative",
+                                              left: "100px"
+                                                          
+        }} className="btn btn-dark" type="submit">
           Submit
         </button>
       </form>
