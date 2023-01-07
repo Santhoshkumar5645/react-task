@@ -22,7 +22,7 @@ tr {
   color: #0b9cb3;
   font-weight: bold;
 }
-p {
+.tag {
   background-color: #ecf5fa;
   margin: 10px;
   text-align: center;
